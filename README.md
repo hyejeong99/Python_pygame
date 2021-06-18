@@ -1,6 +1,10 @@
 # Pygame을 이용한 시뮬레이터 제작
 
-## 1. 구동 방식
+## 파일 실행 순서
+1. roscore 돌리기
+2. 파이썬 파일 실행
+
+### 1. pygame_keyEvent
 
 ![SE-00cc08ce-56c6-4283-83b2-949cc14cb873](https://user-images.githubusercontent.com/59854960/121287459-8c987100-c91c-11eb-88f9-72bd1eae43f8.png)
 
@@ -14,26 +18,30 @@
 경로 궤적을 사각형과 곡선으로 표시해준다.
 
 
-## 2. 실행 결과
-### (1)ver_1
-![SE-c14c9968-d688-4d2b-a153-9cd79691d9e4](https://user-images.githubusercontent.com/59854960/121288306-21e83500-c91e-11eb-95fd-100237e37790.png)
+### 2. pygame_pathPlanning
 
-### (2)ver_2
-![SE-58c3b793-6d61-487b-ae0b-eb2d8ed2b38c](https://user-images.githubusercontent.com/59854960/121287119-f49a8780-c91b-11eb-8730-0ed05807731f.png)
+![SE-179d5d07-f32a-478d-a29d-822a4b4acfff](https://user-images.githubusercontent.com/59854960/122492679-2b118a00-d021-11eb-92ad-513145e0afab.png)
 
-실행 결과 다음과 같은 화면을 확인할 수 있다.
+키보드 입력 1 -> 1번 위치에서 실행
 
-### (3)crush
-![SE-29003da8-30bb-4a07-ad97-055ea924ed69](https://user-images.githubusercontent.com/59854960/121472940-de182d00-c9fc-11eb-848e-0e22a27141c1.png)
-움직이는 자동차와 정지해있는 자동차가 존재한다.
-두 개의 자동차가 충돌하면 충돌 감지를 한다.
+![SE-a88332b3-74e9-4f1d-a3f9-d4d859c76318](https://user-images.githubusercontent.com/59854960/122492684-2c42b700-d021-11eb-9cb5-5b52daaf5599.png)
 
-![SE-48107f99-68ec-4cf2-88a9-240f8baf6b12](https://user-images.githubusercontent.com/59854960/121472936-dce70000-c9fc-11eb-8300-2706f0748351.png)
+키보드 입력 2-> 2번 위치에서 실행
 
-충돌 감지 후 pygame을 종료한다.
+![SE-96118ff5-bcfb-4000-99e2-43555e00d350](https://user-images.githubusercontent.com/59854960/122492685-2d73e400-d021-11eb-979f-24cda1f4ba83.png)
 
-### (4)path planning
-![SE-bee665ce-8d12-485c-b451-57d3f45aa934](https://user-images.githubusercontent.com/59854960/121996862-565b6580-cde4-11eb-94a8-5f3264b8de54.png)
-키보드 입력에 따라 시작 위치를 다르게 조정한다.
-민트색 선은 path planning을 통해 유추한 위치이다.
+키보드 입력 3-> 3번 위치에서 실행
+
+![SE-f53d68fb-2e9c-4d67-9151-da707007807c](https://user-images.githubusercontent.com/59854960/122492687-2ea51100-d021-11eb-9522-46eb9be510a9.png)
+
+키보드 입력 4 -> 4번 위치에서 실행
+
+![SE-84e682f8-3afc-4fc6-866c-864ebdb74e55](https://user-images.githubusercontent.com/59854960/122492510-d968ff80-d020-11eb-910e-faaa74f67a28.png)
+
+아무것도 누르지 않았을 때 기본 실행되는 모습
+
+- 키보드 1, 2, 3, 4 누르면 각각 다른 위치에서 시작
+- 자동차가 AR태그로부터의 자신의 x, y, yaw 값 pub(ar_x, ar_y, ar_yaw)
+- 자동차 이동 궤적 표현(사각형, 선)
+- Path Planning 알고리즘 이용해 경로 계획&경로 추적
 
