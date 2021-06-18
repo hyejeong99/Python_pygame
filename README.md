@@ -1,9 +1,5 @@
 # Pygame을 이용한 시뮬레이터 제작
 
-## 파일 실행 순서
-1. roscore 돌리기
-2. 파이썬 파일 실행
-
 ### 1. pygame_keyEvent
 
 ![SE-00cc08ce-56c6-4283-83b2-949cc14cb873](https://user-images.githubusercontent.com/59854960/121287459-8c987100-c91c-11eb-88f9-72bd1eae43f8.png)
@@ -29,6 +25,10 @@
 정지한 자동차와 충돌하면 pygame 종료
 
 ### 3. pygame_pathPlanning
+
+#### 파일 실행 순서
+1. roscore 돌리기
+2. 파이썬 파일 실행
 
 - 키보드 1, 2, 3, 4 누르면 각각 다른 위치에서 시작
 - 키보드 q 누르면 pygame 종료
