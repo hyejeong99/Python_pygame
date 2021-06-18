@@ -23,7 +23,7 @@
 - 키보드 1, 2, 3, 4 누르면 각각 다른 위치에서 시작
 - 자동차가 AR태그로부터의 자신의 x, y, yaw 값 pub(ar_x, ar_y, ar_yaw)
 - 자동차 이동 궤적 표현(사각형, 선)
-- Path Planning 알고리즘 이용해 경로 계획&경로 추적
+- Path Planning 알고리즘 이용해 경로 계획&stanley 이용해 주차
 
 ![SE-179d5d07-f32a-478d-a29d-822a4b4acfff](https://user-images.githubusercontent.com/59854960/122492679-2b118a00-d021-11eb-92ad-513145e0afab.png)
 
