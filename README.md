@@ -58,5 +58,5 @@
 
 파란색 선은 Path Planning 알고리즘을 통해 만든 AR 태그로 까지의 경로 추정이다.
 
-stanley 
+stanley로 경로를 추적
 
