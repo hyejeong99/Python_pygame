@@ -17,8 +17,18 @@
 
 경로 궤적을 사각형과 곡선으로 표시해준다.
 
+### 2. pygame_simul_carbody_crush
 
-### 2. pygame_pathPlanning
+![SE-cc339abc-ad9a-458e-a480-f8291b916534](https://user-images.githubusercontent.com/59854960/122493971-8ba1c680-d023-11eb-94cc-f41761d1cf7b.png)
+
+- 키보드 위쪽 -> 전진
+- 키보드 아래쪽 -> 후진
+- 키보드 오른쪽 -> 우회전
+- 키보드 왼쪽 -> 좌회전
+
+정지한 자동차와 충돌하면 pygame 종료
+
+### 3. pygame_pathPlanning
 
 - 키보드 1, 2, 3, 4 누르면 각각 다른 위치에서 시작
 - 키보드 q 누르면 pygame 종료
