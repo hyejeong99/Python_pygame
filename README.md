@@ -21,6 +21,7 @@
 ### 2. pygame_pathPlanning
 
 - 키보드 1, 2, 3, 4 누르면 각각 다른 위치에서 시작
+- 키보드 q 누르면 pygame 종료
 - 자동차가 AR태그로부터의 자신의 x, y, yaw 값 pub(ar_x, ar_y, ar_yaw)
 - 자동차 이동 궤적 표현(사각형, 선)
 - Path Planning 알고리즘 이용해 경로 계획&stanley 이용해 주차
