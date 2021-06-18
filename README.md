@@ -20,6 +20,11 @@
 
 ### 2. pygame_pathPlanning
 
+- 키보드 1, 2, 3, 4 누르면 각각 다른 위치에서 시작
+- 자동차가 AR태그로부터의 자신의 x, y, yaw 값 pub(ar_x, ar_y, ar_yaw)
+- 자동차 이동 궤적 표현(사각형, 선)
+- Path Planning 알고리즘 이용해 경로 계획&경로 추적
+
 ![SE-179d5d07-f32a-478d-a29d-822a4b4acfff](https://user-images.githubusercontent.com/59854960/122492679-2b118a00-d021-11eb-92ad-513145e0afab.png)
 
 키보드 입력 1 -> 1번 위치에서 실행
@@ -39,9 +44,4 @@
 ![SE-84e682f8-3afc-4fc6-866c-864ebdb74e55](https://user-images.githubusercontent.com/59854960/122492510-d968ff80-d020-11eb-910e-faaa74f67a28.png)
 
 아무것도 누르지 않았을 때 기본 실행되는 모습
-
-- 키보드 1, 2, 3, 4 누르면 각각 다른 위치에서 시작
-- 자동차가 AR태그로부터의 자신의 x, y, yaw 값 pub(ar_x, ar_y, ar_yaw)
-- 자동차 이동 궤적 표현(사각형, 선)
-- Path Planning 알고리즘 이용해 경로 계획&경로 추적
 
